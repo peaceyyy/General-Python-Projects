@@ -59,6 +59,14 @@ morse_to_alphabet = {
    
 }
 
+"""
+    - get_int(prompt): Prompts the user to enter an integer.
+    - get_str(prompt): Prompts the user to enter a string.
+    - alpha_to_morse(string): Converts an alphabet string to Morse Code.
+    - morse_to_alpha(string): Converts a Morse Code string to an alphabet string.
+    - play_sound(morse_code): Plays the Morse Code as sound for alpha to morse func.
+"""
+
 
 def alpha_to_morse(string: str) -> str:
     morse_string = ""
